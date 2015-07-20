@@ -1,0 +1,13 @@
+{
+    "name": "grow-service/examples",
+    "description": "Examples for grow-services/growclient-v1.1-php",
+    "require": {
+        "grow-services/growclient-v1.1-php": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/igormukhingmailcom/growclient-v1.1-php.git"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "grow-services/growclient-v1.1-php",
+    "description": "Official PHP client library for GROW-Services.net API v1.1",
+    "license": "MIT",
+    "type": "library",
+
+    "require": {
+        "php": ">=5.3",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "~4.6.6"
+    },
+
+    "keywords": [
+        "Pregnance Institute",
+        "GROW",
+        "pregnancy",
+        "perinatal",
+        "IUGR",
+        "API",
+        "php",
+        "client",
+        "official",
+        "library",
+        "linkorb"
+    ],
+
+    "authors": [{
+        "name":     "LinkORB Company",
+        "email":    "engineering@linkorb.com"
+    },{
+        "name":     "Igor Mukhin",
+        "email":    "igor.mukhin@gmail.com",
+        "role":     "Developer"
+    },{
+        "name":     "Contributors",
+        "homepage": "https://github.com/grow-services/growclient-v1.1-php/graphs/contributors"
+    }],
+
+    "support": {
+        "e-mail": "developer@grow-services.net",
+        "issues": "https://github.com/grow-services/growclient-v1.1-php/issues",
+        "source": "https://github.com/grow-services/growclient-v1.1-php"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Grow\\Client\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Grow\\Client\\Test\\": "test/"
+        }
+    }
+}
